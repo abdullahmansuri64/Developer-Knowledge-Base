@@ -34,29 +34,6 @@ A full‑stack web application where developers can share, discover, and manage 
 
 ---
 
-## 📁 Project Structure
-Developer-Knowledge-Base/
-├── backend/
-│ ├── app.py # Main Flask app
-│ ├── ai_chat.py # AI chat route registration & prompts
-│ ├── requirements.txt
-│ └── .env # (create from .env.example)
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── services/
-│ │ └── App.jsx
-│ ├── package.json
-│ └── vite.config.js
-├── .gitignore
-├── README.md
-└── LICENSE
-
-text
-
----
-
 ## 🚀 Installation & Setup
 
 ### Prerequisites
@@ -68,7 +45,49 @@ text
 - [MailHog](https://github.com/mailhog/MailHog) (for email testing)
 
 ---
-
+eveloper-Knowledge-Base/
+├── backend/
+│ ├── app.py # Main Flask application
+│ ├── ai_chat.py # AI chat route registration & prompts
+│ ├── requirements.txt # Python dependencies
+│ └── .env # Environment variables (create this)
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ │ ├── Navbar.jsx
+│ │ │ ├── Sidebar.jsx
+│ │ │ ├── ArticleCard.jsx
+│ │ │ ├── CommentSection.jsx
+│ │ │ ├── NotificationBell.jsx
+│ │ │ ├── FollowButton.jsx
+│ │ │ ├── SaveButton.jsx
+│ │ │ ├── StatsCard.jsx
+│ │ │ └── PrivateRoute.jsx
+│ │ ├── pages/ # Page components
+│ │ │ ├── Login.jsx
+│ │ │ ├── Register.jsx
+│ │ │ ├── ForgotPassword.jsx
+│ │ │ ├── Dashboard.jsx
+│ │ │ ├── AllArticles.jsx
+│ │ │ ├── ViewArticle.jsx
+│ │ │ ├── CreateArticle.jsx
+│ │ │ ├── EditArticle.jsx
+│ │ │ ├── MyArticles.jsx
+│ │ │ ├── SavedArticles.jsx
+│ │ │ ├── Following.jsx
+│ │ │ ├── Profile.jsx
+│ │ │ ├── NotificationsPage.jsx
+│ │ │ └── AIChat.jsx
+│ │ ├── services/
+│ │ │ └── api.js # Axios configuration
+│ │ ├── App.jsx
+│ │ ├── index.jsx
+│ │ └── index.css
+│ ├── package.json
+│ └── vite.config.js
+├── .gitignore # Git ignore file
+├── README.md # This file
+└── LICENSE # MIT License (optional)
 ### 1. Clone the Repository
 
 ```bash
